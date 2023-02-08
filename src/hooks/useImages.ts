@@ -5,38 +5,38 @@ export const useImage = (title: string) => {
     switch (imageName) {
 
         case "walterwhite jr":
-            source = require("../../walterwhitejr.jpg");
+            source = require("../../assets/walterwhitejr.jpg");
             break;
         case "walterwhite":
-            source = require("../../walterwhite.png");
+            source = require("../../assets/walterwhite.png");
             break;
 
         case "saulgoodman":
-            source = require("../../saulgoodman.jpg");
+            source = require("../../assets/saulgoodman.jpg");
             break;
             case "gusfring":
-                source = require("../../gusfring.jpg");
+                source = require("../../assets/gusfring.jpg");
                 break;
             case "hankschrader":
-            source = require("../../hankschrader.png");
+            source = require("../../assets/hankschrader.png");
             break;
             case "badger":
-            source = require("../../badger.jpg");
+            source = require("../../assets/badger.jpg");
             break;
             case "jessepinkman":
-            source = require("../../jessepinkman.jpg");
+            source = require("../../assets/jessepinkman.jpg");
             break;
             case "skylerwhite":
-            source = require("../../skylerwite.jpg");
+            source = require("../../assets/skylerwite.jpg");
             break;
             case "gustavofring":
-            source = require("../../gustavo.jpg");
+            source = require("../../assets/gustavo.jpg");
             break;
             case "thefly":
-            source = require("../../thefly.jpg");
+            source = require("../../assets/thefly.jpg");
             break;
             case "mikeehrmantraut":
-                source = require("../../mikeehrmantraut.jpg");
+                source = require("../../assets/mikeehrmantraut.jpg");
                 break;
            
     }
