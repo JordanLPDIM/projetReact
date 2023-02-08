@@ -6,6 +6,7 @@ import LoginScreen from "../screens/LoginScreen";
 import { TermsScreen } from "../screens/TermsScreen";
 import { QuoteScreen } from "../screens/QuoteScreen";
 import { DetailsScreen } from "../screens/DetailsScreen";
+import { RandomQuoteScreen } from "../screens/RandomQuoteScreen";
 import { Routes } from "./Routes";
 
 const Stack = createNativeStackNavigator();
@@ -17,6 +18,7 @@ function App() {
         <Stack.Screen name="Home" component={LoginScreen} />
         <Stack.Screen name="Terms" component={TermsScreen} />
         <Stack.Screen name="Details" component={DetailsScreen} />
+        <Stack.Screen name="Random" component={RandomQuoteScreen} />
         <Stack.Screen
           name={Routes.QUOTES_SCREEN}
           component={QuoteScreen}

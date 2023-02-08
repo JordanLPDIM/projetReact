@@ -47,11 +47,11 @@ export function QuoteScreen() {
 
   return (
     <SafeAreaView style={styles.safeContainer}>
-      <View style={styles.viewBtn}>
-            {/* <Button style={styles.btn} buttonColor="black" mode="contained">
+     {/*  <View style={styles.viewBtn}>
+             <Button style={styles.btn} buttonColor="black" mode="contained">
             Citation random
-            </Button> */}
-        </View>
+            </Button> 
+        </View> */}
 
       <View style={styles.container}>
         <FlatList style={styles.containerFlat}
